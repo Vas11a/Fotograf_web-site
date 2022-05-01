@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 1500px;
+	min-height: 100vh;
+	margin: 0 auto;
+	font-family: 'Dela Gothic One';
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	max-height: 700px;
+	background-color: #AFC5C8;
+	background-image: url(../img/bc.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 65px 150px;
+	
+}
+
+.nav{
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	position: relative;
+
+
+	.nav__logo{
+		font-weight: 700;
+		font-size: 20px;
+		
+	}
+
+	.nav__menue{
+		display: flex;
+		gap: 25px;
+		align-items: center;
+	}
+}
+
+.nav-part{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	font-weight: bold;
+	transition-duration: .5s;
+
+	&:hover{
+		transform: scale(1.2);
+		
+	}
+	
+}
+
+.part4{
+	color: grey;
+	border: 1px solid grey;
+	border-radius: 20px;
+	padding: 5px 10px 8px 10px ;
+	display: flex;
+
+	&:hover{
+		background-color: grey;
+		color: black;
+		transform: scale(1.1);
+	}
+}
+
+
+
+.button-menu{
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	transition-duration: .5s;
+	display: none;
+	.burg{
+		width: 30px;
+		height: 30px;
+	}
+
+	&:hover{
+		transform:scale(1.1);
+		box-shadow: 5px 5px 5px;
+	}
+
+	&:active{
+		transform:scale(1);
+		box-shadow: none;
+	}
+}
+
+.menu-off{
+	position: absolute;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.add{
+	display: none;
+}
+
+.header-container{
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.heder-lay2{
+	padding-top: 30px;
+}
+
+
+.big-title{
+	font-family: 'Orelega One';
+	font-size: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 97.19%;
+	color: white;
+}
+
+.small-big-title{
+	font-size: 35px;
+	padding-bottom: 15px;
+}
+
+.sub-title{
+	font-family: 'Moncerat';
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	padding-bottom: 30px;
+}
+
+.but-contact{
+	color: white;
+	padding: 5px 0 8px 0;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	border: 1px solid white;
+	width: 120px;
+	border-radius: 20px;
+	transition-duration: .5s;
+
+	&:hover{
+		color: black;
+		background-color: white;
+	}
+}
+
+
+.scroll-down{
+	height: 15px;
+	color: white;
+	text-decoration: none;
+
+	&:after{
+		content: url(../img/arrow.png);
+		margin-left: 5px;
+	}
+}
+
+
+.main{
+	background-color: rgb(19,18,18);
+	width: 100%;
+	padding: 90px 150px;
+}
+
+.main__about{
+	display: flex;
+	width: 100%;
+}
+
+.about{
+	width: 380px;
+	height: 440px;
+}
+
+.about__text{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 90px 0px 90px 90px;
+	flex:1;
+}
+
+.about__photo{
+	display: flex;
+	align-items: center;
+}
+
+.about__title{
+	font-family: 'Orelega One';
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.about__sub-text{
+	color: white;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.about__buttons{
+	padding-top: 5px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about__button{
+	width: 110px;
+	padding: 7px 15px;
+	border: 1px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	font-family: 'Moncerat';
+	font-weight: normal;
+	transition-duration: .5s;
+	margin-top: 20px;
+
+	&:hover{
+		transform:scale(1.1);
+	}
+}
+
+.ab_b3 , .ab_b4{
+	padding: 7px 0px 7px 20px;
+	position: relative;
+	&:before{
+		content: url(../img/inst1.png);
+		margin-right: 5px;
+		position: absolute;
+		top: 9px;
+		left: 6px;
+	}
+
+	&:hover{
+		transform:scale(1.1);
+	}
+}
+
+.ab_b4{
+	&:before{
+		content: url(../img/t1.png);
+		top: 7px;
+	}
+}
+
+
+.main__works{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+
+.img-work{
+	width: 320px;
+	height: 320px;
+	transition-duration: .5s;
+
+	&:hover{
+		transform:scale(1.2);
+		z-index: 100;
+	}
+}
+
+.work__title{
+	padding-bottom: 50px;
+}
+
+.work__block{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 100%;
+}
+
+.line-work{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__works-button{
+	font-size: 12px;
+	color: black;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 130px;
+	padding: 7px 0 7px 0;
+	border-radius: 20px;
+	margin-top: 40px;
+	text-decoration: none;
+	font-family: 'Moncerat';
+	transition-duration: .5s;
+
+	&:hover{
+		background-color: grey;
+		color: white;
+	}
+}
+
+
+
+.main__prices{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.main__prices-sub-title{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.main__prices-block{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+.mpb{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.img-price{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.img-price-title{
+	padding-top: 20px;
+	font-size: 20px;
+	font-family: 'Orelega One';
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.img-price-sub{
+	padding-top: 10px;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+.img-price-price{
+	padding-top: 10px;
+	font-family: 'Orelega One';
+	color: white;
+}
+
+.footer{
+	background-color: rgb(19,18,18);
+	width: 100%;
+	padding: 0px 150px 40px 150px;
+}
+
+.footer__block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+}
+
+.logo__foot{
+	color: white;
+}
+
+.buttons__foot{
+	margin-top: -20px;
+	gap: 10px;
+}

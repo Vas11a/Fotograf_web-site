@@ -1,0 +1,186 @@
+@media screen and (max-width: 1300px) {
+	.line-work{
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.work__block{
+		flex-direction: row;
+		justify-content: center;
+
+	}
+}
+
+@media screen and (max-width: 1115px) {
+	.main{
+		padding-top: 90px;
+	}
+
+	.main__about{
+		flex-direction: column;
+	}
+
+	.about__text{
+		padding: 70px 0 0 0 ;
+	}
+
+	.about__photo{
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.img-work{
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 916px) {
+	.main__prices-block{
+		justify-content: center;
+		gap: 30px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 870px) {
+	.header{
+		padding: 50px 50px;
+	}
+
+	.main{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.nav__menue{
+		flex-direction: column;
+		background-color: rgba(208,197,197, .9);
+		width: 25%;
+		min-width: 215px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50%;
+		gap: 5px;
+		border-radius: 20px;
+		padding: 10px 0;
+	}
+
+	.nav>.nav__menue{
+		display: none;
+	}
+
+	.nav__menue.add2{
+		display: flex;
+	}
+
+	.nav-part{
+		font-size: 22px;
+		color: black;
+	}
+
+	.part4{
+		color: black;
+		border: none;
+		border-radius: none;
+		padding: 0;
+	}
+
+	.part4:hover{
+		background-color: rgba(208,197,197, 0);
+		color: black;
+		transform: scale(1.1);
+	}
+
+	.button-menu{
+		display: flex;
+	}
+
+	.nav>.nav__logo{
+		font-size: 40px;	
+	}
+
+	.about{
+		width: 280px;
+		height: 340px;
+	}
+
+	div.work__block{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	img.img-work{
+		width: 300px;
+		height: 300px;
+	}
+
+	.footer{
+		padding: 0 50px 90px 50px; 
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.nav>.nav__logo{
+		font-size: 25px;	
+	}
+
+	.big-title{
+		font-size: 35px;
+	}
+
+	.small-big-title{
+		font-size: 25px;
+
+	}
+
+	.header{
+		max-height: 600px;
+		padding: 50px 40px;
+	}
+
+	img.img-work{
+		width: 200px;
+		height: 200px;
+	}
+
+	.footer{
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.nav>.nav__logo{
+		font-size: 20px;	
+	}
+
+	.big-title{
+		font-size: 28px;
+	}
+
+	.small-big-title{
+		font-size: 20px;
+	}
+
+	.header{
+		max-height: 550px;
+		padding: 50px 40px;
+	}
+
+	
+}
+
+
+
+
+
+
+
