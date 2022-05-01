@@ -148,8 +148,8 @@
 	}
 
 	img.img-work{
-		width: 200px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
 	}
 
 	.footer{
@@ -174,7 +174,11 @@
 		max-height: 550px;
 		padding: 50px 40px;
 	}
-
+	
+	img.img-work{
+		width: 200px;
+		height: 200px;
+	}
 	
 }
 
