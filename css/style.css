@@ -107,18 +107,7 @@
   width: 30px;
   height: 30px;
 }
-.button-menu:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 5px 5px 5px;
-          box-shadow: 5px 5px 5px;
-}
-.button-menu:active {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
+
 
 .menu-off {
   position: absolute;
