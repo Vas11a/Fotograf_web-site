@@ -155,6 +155,10 @@
 	.footer{
 		padding-bottom: 30px;
 	}
+
+	.about__buttons{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 320px) {
