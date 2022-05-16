@@ -159,6 +159,10 @@
 	.about__buttons{
 		display: none;
 	}
+	
+	.buttons__foot{
+		display: flex;
+	}
 }
 
 @media screen and (max-width: 320px) {
